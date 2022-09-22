@@ -1,16 +1,31 @@
 body{
-    width: 100vw;
     height: 100vh;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(237, 211, 195);
 }
 #header{
-    height: 100vh;
+    height: 15vh;
+    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
+}
+
+#header-dos{
+    height: 40vh;
+    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
+}
+
+#header-tres{
+    height: 60vh;
+    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
 }
 #main{
-    height: 80vh;
+    height: 120vh;
 }
 
 #footer{
-    height: 10vh;
+    height: 15vh;
+    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%); 
 }
 .tamano-logo{
     width: 95px;
@@ -18,13 +33,13 @@ body{
 }
 
 .mi-foto{
-    width: 300px;
+    width: 350px;
     height: 350px;
 }
 
 
 .btn{
-    background-color: rgb(142, 249, 178) !important;
+    background-color: rgb(42, 43, 42) !important;
     border-color: aliceblue !important;
 }
 .form-control{
