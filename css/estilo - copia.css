@@ -23,9 +23,6 @@ body{
     height: 120vh;
 }
 
-#main-dos{
-    height: 200vh;
-}
 #footer{
     height: 15vh;
     background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%); 
@@ -53,15 +50,3 @@ i a{
     text-decoration: none;
 }
 
-.card{
-    background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(192, 165, 117);
-    border-radius: 10px !important;
-    
-}
-
-.card-img-top{
-    margin-top: 10px;
-    width: 100px !important;
-    height: 150px !important;
-}
