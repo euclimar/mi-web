@@ -1,67 +1,81 @@
-body{
+body {
     height: 100vh;
+    background-color: black;
 }
-
-.navbar ul li a:hover{
-    background-color: rgb(237, 211, 195);
-}
-#header{
+#header {
     height: 15vh;
-    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
 }
-
-#header-dos{
-    height: 40vh;
-    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
-}
-
-#header-tres{
-    height: 60vh;
-    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%);
-}
-#main{
+#main {
     height: 120vh;
 }
-
-#main-dos{
-    height: 200vh;
+/* estilo texto */
+h1 {
+    font-size: 60px !important;
+    color: #DF6240 !important;
 }
-#footer{
-    height: 15vh;
-    background: linear-gradient(249deg, rgba(192,165,117,1) 19%, rgba(193,141,96,1) 50%, rgba(192,165,117,1) 88%); 
+.display-6 {
+    color: aliceblue !important;
 }
-.tamano-logo{
+p {
+    color: aliceblue;
+}
+h2 {
+    color: aliceblue;
+}
+h6 {
+    color: aliceblue;
+}
+hr {
+    color: aliceblue;
+}
+/* navbar */
+.navbar ul li a:hover {
+    color: #e8a28f !important;
+}
+.nav-link {
+    color: aliceblue !important;
+}
+.tamano-logo {
     width: 95px;
     height: 95px;
 }
-
-.mi-foto{
-    width: 350px;
-    height: 350px;
+.mi-foto {
+    width: 450px;
+    height: 450px;
 }
-
-.btn{
-    background-color: rgb(42, 43, 42) !important;
+/* estilo formulario */
+.btn {
+    background-color: #DF6240 !important;
     border-color: aliceblue !important;
 }
-.form-control{
-    border: 1px solid black !important;
+.form-control {
+    border: 3px solid rgb(245, 243, 243) !important;
+    width: 550px;
 }
-
-i a{
-    color: black;
-    text-decoration: none;
-}
-
-.card{
-    background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(192, 165, 117);
+/* estilos card */
+.card {
+    background-color: black !important;
+    border: 5px solid rgb(252, 252, 252);
     border-radius: 10px !important;
-    
 }
-
-.card-img-top{
+.card:hover {
+    background-color: #DF6240 !important;
+}
+.card-img-top {
     margin-top: 10px;
     width: 100px !important;
     height: 150px !important;
+}
+/* estilos iconos */
+.iconos-estilos {
+    border-radius: 1px;
+    font-size: 130px;
+    color: #070707
+}
+.iconos-redes {
+    font-size: 50px !important;
+    color: aliceblue;
+}
+.iconos-redes:hover {
+    color: #DF6240;
 }

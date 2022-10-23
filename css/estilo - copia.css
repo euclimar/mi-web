@@ -1,7 +1,6 @@
 body{
     height: 100vh;
 }
-
 .navbar ul li a:hover{
     background-color: rgb(237, 211, 195);
 }
