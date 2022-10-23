@@ -76,9 +76,14 @@ hr {
     color: #070707
 }
 .iconos-redes {
-    font-size: 50px !important;
+    font-size: 40px !important;
     color: aliceblue;
 }
 .iconos-redes:hover {
     color: #DF6240;
+}
+.enlaces{
+    font-size: 10px;
+    text-decoration: none;
+    color: aliceblue;
 }
